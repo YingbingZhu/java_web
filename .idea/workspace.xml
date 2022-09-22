@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2c37340-8b41-4d25-bdb1-157857f0195c" name="Default Changelist" comment="" />
+    <list default="true" id="c2c37340-8b41-4d25-bdb1-157857f0195c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-demo/src/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/jdbc/JDBCDemo2_DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-demo/src/jdbc/JDBCDemo2_DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/jdbc/JDBCDemo3_Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-demo/src/jdbc/JDBCDemo3_Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/jdbc/JDBCDemo4_Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-demo/src/jdbc/JDBCDemo4_Statement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/jdbc/JDBCDemo5_ResultSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-demo/src/jdbc/JDBCDemo5_ResultSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/jdbc/JDBCDemo6_UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-demo/src/jdbc/JDBCDemo6_UserLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/src/jdbc/JDBCDemo7_PreparedStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-demo/src/jdbc/JDBCDemo7_PreparedStatement.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,15 +26,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="2F2JLYTquRFveCXJxLiX9tLAsZQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -153,5 +166,16 @@
       <updated>1663684189480</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

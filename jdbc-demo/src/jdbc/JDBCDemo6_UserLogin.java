@@ -24,7 +24,7 @@ public class JDBCDemo6_UserLogin {
     public void testLogin() throws Exception {
         String url = "jdbc:mysql://127.0.0.1:3306/test?useSSL=false";
         String username = "root";
-        String password = "19960502";
+        String password = "XXX";
         Connection conn = DriverManager.getConnection(url, username, password);
 
         // get username and password
@@ -60,7 +60,7 @@ public class JDBCDemo6_UserLogin {
     public void testLogin_Inject() throws Exception {
         String url = "jdbc:mysql://127.0.0.1:3306/test?useSSL=false";
         String username = "root";
-        String password = "19960502";
+        String password = "XXX";
         Connection conn = DriverManager.getConnection(url, username, password);
 
         // get username and password

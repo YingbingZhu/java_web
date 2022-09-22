@@ -17,7 +17,7 @@ public class JDBCDemo2_DriverManager {
         // 2. get connection ( url, username, password
         String url = "jdbc:mysql:///tmp?useSSL=false";
         String username = "root";
-        String password = "19960502";
+        String password = "XXX";
         Connection conn = DriverManager.getConnection(url, username, password);
 
         // 3. sql

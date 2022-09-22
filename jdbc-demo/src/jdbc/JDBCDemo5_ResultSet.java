@@ -63,7 +63,7 @@ public class JDBCDemo5_ResultSet {
     public void testResultSet2() throws Exception {
         String url = "jdbc:mysql://127.0.0.1:3306/tmp?useSSL=false";
         String username = "root";
-        String password = "19960502";
+        String password = "XXX";
         Connection conn = DriverManager.getConnection(url, username, password);
 
         // sql
