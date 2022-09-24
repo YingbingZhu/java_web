@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--
+    namespace
+-->
+
+<mapper namespace="com.zhu.mapper.BrandMapper">
+
+
+    <!--
+        pojo name should be same as db name
+        1. use alias: select brand_name as brandName, company_name as companyName
+        2. use <sql> </sql> and <include>
+        3. resultMap:
+    -->
+<!--    <sql id = "brand_column">-->
+<!--         id, brand_name as brandName-->
+<!--    </sql>-->
+    <!--    user is POJO-->
+<!--    <select id="selectAll" resultType="Brand">-->
+<!--        select-->
+<!--        <include refid="brand_column"></include>-->
+<!--        from tb_brand;-->
+<!--    </select>-->
+    <resultMap id="brandResultMap" type="brand">
+        <!-- id: finish map
+            column: column name
+            property: class name
+        -->
+
+        <result column="brand_name" property="brandName"/>
+        <result column="company_name" property="companyName"/>
+    </resultMap>
+
+
+    <select id="selectAll" resultMap="brandResultMap">
+        select
+        *
+        from tb_brand;
+    </select>
+        <!--
+        1. #{}: convert to ?, prevent sql inject (parameters)
+        2. ${}: use for table name
+
+        *  special case like <: 1. Escape character &lt; 2. CDATA
+        -->
+
+    <select id="selectById" resultMap="brandResultMap">
+        select *
+        from tb_brand where id = #{id};
+
+    </select>
+
+<!--    <select id="selectByCondition" resultMap="brandResultMap">-->
+<!--        select *-->
+<!--        from tb_brand where status = #{status}-->
+<!--        and company_name like #{companyName}-->
+<!--        and brand_name like #{brandName}-->
+<!--    </select>-->
+
+    <!--    dynamic sql
+            * if : condition check
+
+    -->
+    <select id="selectByCondition" resultMap="brandResultMap">
+        select *
+        from tb_brand
+<!--        where  1 = 1-->
+        <where>
+        <if test="status != null">
+            status = #{status}
+        </if>
+        <if test="companyName != null and companyName != ''">
+            and company_name like #{companyName}
+        </if>
+        <if test="brandName != null and brandName != ''">
+            and brand_name like #{brandName}
+        </if>
+        </where>
+    </select>
+    <select id="selectByConditionSingle" resultMap="brandResultMap">
+        select *
+        from tb_brand
+        where
+        <choose> <!-- switch -->
+            <when test="status != null">  <!-- case -->
+                status = #{status}
+            </when>
+            <when test="companyName != null and companyName != ''">  <!-- case -->
+                and company_name like #{companyName}
+            </when>
+            <when test="brandName != null and brandName != ''">  <!-- case -->
+                and brand_name like #{brandName}
+            </when>
+            <otherwise>
+                1 = 1
+            </otherwise>
+        </choose>
+
+
+    </select>
+
+    <insert id="add" useGeneratedKeys="true" keyProperty="id" >
+        insert into tb_brand (brand_name, company_name, ordered, description, status)
+        values (#{brandName}, #{companyName}, #{ordered}, #{description}, #{status});
+    </insert>
+
+<!--    <update id="update">-->
+<!--        update tb_brand-->
+<!--        set-->
+<!--        brand_name = #{brandName},-->
+<!--        company_name = #{companyName},-->
+<!--        ordered = #{ordered},-->
+<!--        description = #{description},-->
+<!--        status = #{status}-->
+<!--        where id = #{id};-->
+<!--    </update>-->
+
+    <update id="update">
+        update tb_brand
+        <set>
+            <if test="brandName != null and brandName != ''">
+                brand_name = #{brandName},
+            </if>
+            <if test="companyName != null and companyName != ''">
+                company_name = #{companyName},
+            </if>
+            <if test="ordered != null">
+                ordered = #{ordered},
+            </if>
+            <if test="description != null and description != ''">
+                company_name = #{companyName},
+            </if>
+            <if test="status != null">
+                status = #{status}
+            </if>
+        </set>
+        where id = #{id};
+    </update>
+
+    <delete id="deleteById">
+        delete from tb_brand where id = #{id}
+    </delete>
+    <!--
+          mybatis will make array into map
+          use @param to change key name
+    -->
+
+    <delete id="deleteByIds">
+        delete from tb_brand
+        where id in
+        <foreach collection="ids" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+
+    </delete>
+
+</mapper>
