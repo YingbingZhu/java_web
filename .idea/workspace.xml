@@ -5,47 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c37340-8b41-4d25-bdb1-157857f0195c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-demo/maven-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-demo/src/main/java/com/zhu/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maven-demo/src/test/java/com/zhu/TestMaven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo/mybatis-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo/src/main/java/com/zhu/MyBatisDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo/src/main/java/com/zhu/MyBatisDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo/src/main/java/com/zhu/mapper/BrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo/src/main/java/com/zhu/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo/src/main/java/com/zhu/pojo/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo/src/main/java/com/zhu/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo/src/main/resources/com/zhu/mapper/BrandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo/src/main/resources/com/zhu/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo/src/test/java/com/zhu/test/MyBatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-demo/src/test/java/com/zhu/test/UserMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-demo/css-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-demo/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-demo/html/css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-demo/html/import.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css-demo/html/selector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-demo/html-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-demo/html/b.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-demo/html/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-demo/html/c.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-demo/html/form-element.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-demo/html/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-demo/html/hyperlink.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-demo/html/img/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-demo/html/img/mi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-demo/html/img/squirrels.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-demo/html/img/uniqlo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-demo/html/img_audio_video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-demo/html/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-demo/html/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-demo/html/table.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc-demo/META-INF/jdbc-demo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc-demo/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdbc-demo/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc-demo/jdbc/JDBCDemo2_DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdbc-demo/jdbc/JDBCDemo2_DriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc-demo/jdbc/JDBCDemo3_Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdbc-demo/jdbc/JDBCDemo3_Connection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc-demo/jdbc/JDBCDemo4_Statement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdbc-demo/jdbc/JDBCDemo4_Statement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc-demo/jdbc/JDBCDemo5_ResultSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdbc-demo/jdbc/JDBCDemo5_ResultSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc-demo/jdbc/JDBCDemo6_UserLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdbc-demo/jdbc/JDBCDemo6_UserLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc-demo/jdbc/JDBCDemo7_PreparedStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdbc-demo/jdbc/JDBCDemo7_PreparedStatement.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +43,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -97,20 +81,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/yingbingzhu/Documents/GitHub/java_web/mybatis-demo/src/main/resources/com/zhu/mapper",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/yingbingzhu/Documents/GitHub/java_web/html-demo/html/img",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html-demo/html/img" />
+      <recent name="$PROJECT_DIR$/html-demo/html" />
       <recent name="$PROJECT_DIR$/mybatis-demo/src/main/resources/com/zhu/mapper" />
       <recent name="$PROJECT_DIR$/mybatis-demo/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css-demo/html" />
+      <recent name="$PROJECT_DIR$/html-demo/html" />
+      <recent name="$PROJECT_DIR$/html-demo/html/img" />
+      <recent name="$PROJECT_DIR$/html-demo1" />
       <recent name="$PROJECT_DIR$/mybatis-demo/src/main/java/com/zhu/pojo" />
-      <recent name="$PROJECT_DIR$/mybatis-demo/src/main/resources/com/zhu/mapper" />
-      <recent name="$PROJECT_DIR$/jdbc-demo/lib" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zhu" />
@@ -232,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663853163757</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: finish mybatis &amp; maven">
+      <created>1664032902664</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664032902664</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +246,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="refactor: fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: fix" />
+    <MESSAGE value="feat: finish mybatis &amp; maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: finish mybatis &amp; maven" />
   </component>
 </project>
