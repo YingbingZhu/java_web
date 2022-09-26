@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+  /*
+   ==: check data type and auto transform data type
+   ===:  no data transform
+
+  */
+  var age1 = 20;
+  var age2 = "20";
+
+  alert(age1==age2);
+  alert(age1===age2);
+
+
+  /*
+    to number:
+     1. string to number:  use parseInt; if not a number > NAN;
+     2. boolean to number:  true > 1; false > 0;
+
+     to boolean:
+         1. number: 0 and NAN > false; other > true
+         2. string: empty string > false; other > true;
+         3. null: false
+         4. undefined: false
+
+  */
+
+  var str = "abc";
+  alert(parseInt(str));
+
+  var flag = +true;
+  alert(flag);
+
+  var flag = 0;
+
+  if(flag){
+  alert("true");
+  } else {
+  alert("false");
+  }
+
+  var str = "abc";
+
+// if(str != null && str.length> 0)
+  if(str){
+  alert("true");
+  } else {
+  alert("false");
+  }
+
+
+</script>
+</body>
+</html>

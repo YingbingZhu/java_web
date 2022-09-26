@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input type="button" onclick="on()" value="power on" >
+<img id="myImg" border="0" src="../imgs/off.gif" style="...">
+<input type="button" onclick="off()" value="power off">
+
+
+<script>
+
+  function on() {
+    document.getElementById('myImg').src='../imgs/on.gif';
+  }
+  function off() {
+    document.getElementById('myImg').src='../imgs/off.gif';
+  }
+
+  // timer
+
+  var x = 0;
+  setInterval(function() {
+
+    if(x % 2 == 0) {
+        on();
+    } else {
+        off();
+    }
+    x++;
+    if (x>100) x=0;
+  }, 1000)
+
+
+</script>
+
+
+</body>
+</html>

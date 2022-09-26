@@ -5,28 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c37340-8b41-4d25-bdb1-157857f0195c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-demo/css-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-demo/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-demo/html/css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-demo/html/import.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-demo/html/selector.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-demo/html-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-demo/html/b.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-demo/html/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-demo/html/c.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-demo/html/form-element.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-demo/html/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-demo/html/hyperlink.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-demo/html/img/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-demo/html/img/mi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-demo/html/img/squirrels.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-demo/html/img/uniqlo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-demo/html/img_audio_video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-demo/html/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-demo/html/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-demo/html/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/BOM-window.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/data-type.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/imgs/off.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/imgs/on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/import.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/js-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/operations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/process-control.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/string.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/timer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/var.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -79,15 +72,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/yingbingzhu/Documents/GitHub/java_web/html-demo/html/img",
-    "settings.editor.selected.configurable": "preferences.fileTypes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yingbingzhu/Documents/GitHub/java_web/html-demo/html/img&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/html-demo/html/img" />
@@ -96,11 +89,11 @@
       <recent name="$PROJECT_DIR$/mybatis-demo/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js-demo/imgs" />
       <recent name="$PROJECT_DIR$/css-demo/html" />
       <recent name="$PROJECT_DIR$/html-demo/html" />
       <recent name="$PROJECT_DIR$/html-demo/html/img" />
       <recent name="$PROJECT_DIR$/html-demo1" />
-      <recent name="$PROJECT_DIR$/mybatis-demo/src/main/java/com/zhu/pojo" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zhu" />
@@ -229,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664032902664</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: html &amp; css">
+      <created>1664113608172</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664113608172</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +247,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="refactor: fix" />
     <MESSAGE value="feat: finish mybatis &amp; maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: finish mybatis &amp; maven" />
+    <MESSAGE value="feat: html &amp; css" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: html &amp; css" />
   </component>
 </project>
