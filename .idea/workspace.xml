@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c37340-8b41-4d25-bdb1-157857f0195c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js-demo/BOM-window.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/array.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/data-type.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/function.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/imgs/off.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/imgs/on.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/import.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/js-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/js/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/object.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/operations.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/process-control.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/string.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/timer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/var.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/DOM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-demo/location.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -229,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664113608172</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: js">
+      <created>1664202148497</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664202148497</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +242,7 @@
     <MESSAGE value="refactor: fix" />
     <MESSAGE value="feat: finish mybatis &amp; maven" />
     <MESSAGE value="feat: html &amp; css" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: html &amp; css" />
+    <MESSAGE value="feat: js" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: js" />
   </component>
 </project>

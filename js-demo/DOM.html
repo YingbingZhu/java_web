@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img id="light" src="../imgs/off.gif"> <br>
+
+<div class="cls">hi</div> <br>
+<div class="cls">hello</div> <br>
+
+<input type="checkbox" name="hobby"> movie
+<input type="checkbox" name="hobby"> travel
+<input type="checkbox" name="hobby"> game
+<br>
+
+
+<script>
+  var img =  document.getElementById("light");
+  alert(img);
+
+  img.src = "../imgs/on.gif";
+
+  var divs = document.getElementsByTagName("div")
+  /*
+    style: css format
+    innerHTML: element content
+  */
+   for (let i = 0; i < divs.length; i++) {
+    divs[i].style.color = 'red';
+    divs[i].innerHTML = "hhhh";
+  }
+
+
+  var hobbys = document.getElementsByName("hobby");
+  for (let i = 0; i < hobbys.length; i++) {
+    // alert(hobbys[i]);
+    hobbys[i].checked = true;
+  }
+
+  /*
+  var clss = document.getElementsByClassName("cls");
+  for (let i = 0; i < hobbys.length; i++) {
+    alert(clss[i]);
+  }
+  */
+
+<!--  function() {-->
+<!--    document.getElementById("light")-->
+<!--  }-->
+
+
+</script>
+
+</body>
+</html>
