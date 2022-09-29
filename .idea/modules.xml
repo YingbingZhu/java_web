@@ -4,11 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/css-demo/css-demo.iml" filepath="$PROJECT_DIR$/css-demo/css-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/html-demo/html-demo.iml" filepath="$PROJECT_DIR$/html-demo/html-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/http/http.iml" filepath="$PROJECT_DIR$/http/http.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_web.iml" filepath="$PROJECT_DIR$/java_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbc-demo/jdbc-demo.iml" filepath="$PROJECT_DIR$/jdbc-demo/jdbc-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/js-demo/js-demo.iml" filepath="$PROJECT_DIR$/js-demo/js-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/maven-demo/maven-demo.iml" filepath="$PROJECT_DIR$/maven-demo/maven-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mybatis-demo/mybatis-demo.iml" filepath="$PROJECT_DIR$/mybatis-demo/mybatis-demo.iml" />
     </modules>
   </component>
 </project>

@@ -8,11 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="maven-demo" />
         <module name="mybatis-demo" />
+        <module name="tomcat-demo1" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="maven-demo" target="1.8" />
-      <module name="mybatis-demo" target="1.5" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>
