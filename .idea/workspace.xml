@@ -5,23 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c37340-8b41-4d25-bdb1-157857f0195c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/http.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/src/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/imgs/reg_bg_min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-demo/regex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat-demo1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat-demo1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat-demo1/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/MyHttpServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/webapp/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-demo/maven-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/mybatis-demo.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +33,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,6 +56,7 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="/usr/local/Cellar/maven/3.8.6/mvn_resp" />
         <option name="mavenHome" value="/usr/local/Cellar/maven/3.8.6/libexec" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="/usr/local/Cellar/maven/3.8.6/libexec/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -78,7 +84,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/yingbingzhu/Documents/GitHub/java_web/html-demo/html/img&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -89,23 +95,31 @@
       <recent name="$PROJECT_DIR$/mybatis-demo/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/http" />
       <recent name="$PROJECT_DIR$/http/src" />
       <recent name="$PROJECT_DIR$/js-demo/imgs" />
       <recent name="$PROJECT_DIR$/js-demo/css" />
-      <recent name="$PROJECT_DIR$/css-demo/html" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zhu" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhu.web" />
       <recent name="com.zhu.test" />
       <recent name="com.zhu.mapper" />
       <recent name="" />
       <recent name="jdbc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Server">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="com.poratu.idea.plugins.tomcat" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Smart Tomcat.Tomcat10">
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Server" />
       <module name="http" />
@@ -177,6 +191,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat10" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="adminPort" value="8006" />
+      <option name="contextPath" value="/tomcat-demo2" />
+      <option name="docBase" value="$PROJECT_DIR$/tomcat-demo2/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="port" value="8888" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.0.26" />
+          <option name="path" value="/usr/local/tomcat" />
+          <option name="version" value="10.0.26.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="-Dspring.profiles.active=dev -Xmx2048m -Xms768m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Server" />
+      <item itemvalue="JUnit.MyBatisTest.testDeleteById" />
+      <item itemvalue="JUnit.MyBatisTest.testDeleteByIds" />
+      <item itemvalue="JUnit.MyBatisTest.testUpdate" />
+      <item itemvalue="JUnit.UserMapperTest.testSelect" />
+      <item itemvalue="Smart Tomcat.Tomcat10" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Server" />
@@ -234,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664294942706</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: tomcat">
+      <created>1664466163074</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664466163074</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,6 +309,7 @@
     <MESSAGE value="feat: html &amp; css" />
     <MESSAGE value="feat: js" />
     <MESSAGE value="feat: event" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: event" />
+    <MESSAGE value="feat: tomcat" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: tomcat" />
   </component>
 </project>
