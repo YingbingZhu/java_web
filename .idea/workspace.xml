@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="request-demo:war" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2c37340-8b41-4d25-bdb1-157857f0195c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/MyHttpServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-demo/src/main/webapp/a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-demo/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="c2c37340-8b41-4d25-bdb1-157857f0195c" name="Default Changelist" comment="feat: servlet">
+      <change afterPath="$PROJECT_DIR$/request-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/zhu/web/RequestDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/zhu/web/RequestDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/zhu/web/RequestDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/zhu/web/RequestDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/zhu/web/RequestDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/zhu/web/ServletDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/zhu/web/ServletDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/zhu/web/URLDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-demo/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-demo/src/main/webapp/req.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/zhu/web/ServletDemo9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,18 +94,25 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yingbingzhu/Documents/GitHub/java_web/html-demo/html/img&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/yingbingzhu/Documents/GitHub/java_web&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/request-demo/src/test" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/html-demo/html/img" />
       <recent name="$PROJECT_DIR$/html-demo/html" />
       <recent name="$PROJECT_DIR$/mybatis-demo/src/main/resources/com/zhu/mapper" />
-      <recent name="$PROJECT_DIR$/mybatis-demo/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -112,14 +132,7 @@
       <recent name="jdbc" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="com.poratu.idea.plugins.tomcat" />
-      </set>
-    </option>
-  </component>
-  <component name="RunManager" selected="Smart Tomcat.Tomcat10">
+  <component name="RunManager">
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Server" />
       <module name="http" />
@@ -159,22 +172,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBatisTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhu.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zhu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.zhu.test.MyBatisTest" />
-      <option name="METHOD_NAME" value="testUpdate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserMapperTest.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-demo" />
       <extension name="coverage">
@@ -191,6 +188,117 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tomcat10" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.26" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:90/request_demo_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="request-demo:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/request_demo_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="ae729c60-30cd-462a-997b-203be3be2b08" />
+        <option name="HTTP_PORT" value="83" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63188" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="request-demo:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat10 -request-demo" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="adminPort" value="8006" />
+      <option name="contextPath" value="/request-demo" />
+      <option name="docBase" value="$PROJECT_DIR$/request-demo/src/main/webapp" />
+      <option name="port" value="8888" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.0.26" />
+          <option name="path" value="/usr/local/tomcat" />
+          <option name="version" value="10.0.26.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="-Dspring.profiles.active=dev -Xmx2048m -Xms768m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat10" type="com.poratu.idea.plugins.tomcat">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
       <predefined_log_file enabled="true" id="Tomcat Access Log" />
@@ -200,9 +308,6 @@
       <option name="adminPort" value="8006" />
       <option name="contextPath" value="/tomcat-demo2" />
       <option name="docBase" value="$PROJECT_DIR$/tomcat-demo2/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="port" value="8888" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -220,9 +325,10 @@
       <item itemvalue="Application.Server" />
       <item itemvalue="JUnit.MyBatisTest.testDeleteById" />
       <item itemvalue="JUnit.MyBatisTest.testDeleteByIds" />
-      <item itemvalue="JUnit.MyBatisTest.testUpdate" />
       <item itemvalue="JUnit.UserMapperTest.testSelect" />
       <item itemvalue="Smart Tomcat.Tomcat10" />
+      <item itemvalue="Smart Tomcat.Tomcat10 -request-demo" />
+      <item itemvalue="Tomcat Server.tomcat10" />
     </list>
     <recent_temporary>
       <list>
@@ -230,7 +336,6 @@
         <item itemvalue="JUnit.UserMapperTest.testSelect" />
         <item itemvalue="JUnit.MyBatisTest.testDeleteByIds" />
         <item itemvalue="JUnit.MyBatisTest.testDeleteById" />
-        <item itemvalue="JUnit.MyBatisTest.testUpdate" />
       </list>
     </recent_temporary>
   </component>
@@ -245,6 +350,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663684189480</updated>
+      <workItem from="1664607715481" duration="1395000" />
+      <workItem from="1664609126692" duration="6672000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: fix">
       <created>1663853163757</created>
@@ -288,8 +395,18 @@
       <option name="project" value="LOCAL" />
       <updated>1664466163074</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: servlet">
+      <created>1664553339903</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664553339903</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -310,6 +427,7 @@
     <MESSAGE value="feat: js" />
     <MESSAGE value="feat: event" />
     <MESSAGE value="feat: tomcat" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: tomcat" />
+    <MESSAGE value="feat: servlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: servlet" />
   </component>
 </project>

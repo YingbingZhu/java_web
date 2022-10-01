@@ -4,4 +4,17 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>demo12</servlet-name>
+    <servlet-class>com.zhu.web.ServletDemo12</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>demo12</servlet-name>
+    <url-pattern>/demo12</url-pattern>
+  </servlet-mapping>
 </web-app>
+
+
+
+
