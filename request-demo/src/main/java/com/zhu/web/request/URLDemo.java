@@ -1,4 +1,4 @@
-package com.zhu.web;
+package com.zhu.web.request;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
