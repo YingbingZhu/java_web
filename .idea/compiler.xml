@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/brand-demo/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -9,10 +12,11 @@
         <module name="tomcat-demo1" />
         <module name="tomcat-demo2" />
         <module name="maven-demo" />
-        <module name="maven" />
         <module name="request-demo" />
+        <module name="jsp-demo" />
         <module name="mybatis-demo" />
         <module name="web-demo" />
+        <module name="brand-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

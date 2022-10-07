@@ -15,41 +15,42 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 
-@WebServlet("/loginServlet")
-public class LoginServlet extends HttpServlet {
+@WebServlet("/registerServlet")
+public class RegisterServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // get parameter
+
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
-        // my batis
-        // 1. get mysqlSessionFactory
+        // encapsulate User
+        User user = new User();
+        user.setUsername(username);
+        user.setPassword(password);
+
+
 /*        String resource = "mybatis-config.xml";
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);*/
 
-        SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getSqlSessionFactory();
-        // 2. get sqlSession
+        SqlSessionFactoryUtils.getSqlSessionFactory()
         SqlSession sqlSession = sqlSessionFactory.openSession();
-
-        // 3. get Mapper
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
 
-        // 4. implement method
-        User user = mapper.select(username, password);
+        User u = mapper.selectByUsername(username);
 
-        // 5. close
+        if( u == null ) {
+            mapper.add(username, password);
+
+            // commit transaction
+            sqlSession.commit();
+        } else {
+            PrintWriter writer = response.getWriter();
+            writer.write("already has");
+        }
         sqlSession.close();
 
-        response.setContentType("text/html;");
-        PrintWriter writer = response.getWriter();
-        // check user
-        if (user != null) {
-            writer.write("success");
-        } else {
-            writer.write("fail");
-        }
+
 
     }
 
