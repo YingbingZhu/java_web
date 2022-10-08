@@ -25,7 +25,7 @@
     <title>Title</title>
 </head>
 <body>
-<input type="button" value="新增"><br>
+<input type="button" value="add" id="add"><br>
 <hr>
 <table border="1" cellspacing="0" width="800">
     <tr>
@@ -54,7 +54,7 @@
             <td>open</td>
             </c:if>
 
-            <td><a href="#">modify</a> <a href="#">delete</a></td>
+            <td><a href="/brand-demo/selectByIdServlet?id=${brand.id}">modify</a> <a href="/brand-demo/deleteByIdServlet?id=${brand.id}">delete</a></td>
         </tr>
 
 
@@ -64,6 +64,13 @@
 
 </table>
 
+<script>
+    document.getElementById("add").onclick = function () {
+        window.location.href="/brand-demo/addBrand.jsp";
+    }
+
+
+</script>
 
 </body>
 </html>
