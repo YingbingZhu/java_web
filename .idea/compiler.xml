@@ -17,6 +17,7 @@
         <module name="mybatis-demo" />
         <module name="web-demo" />
         <module name="brand-demo" />
+        <module name="cookie-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

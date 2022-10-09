@@ -9,17 +9,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2c37340-8b41-4d25-bdb1-157857f0195c" name="Default Changelist" comment="feat: mvc">
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/AddServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/DeleteByIdServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/SelectByIdServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/UpdateServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/addBrand.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/update.jsp" afterDir="false" />
+    <list default="true" id="c2c37340-8b41-4d25-bdb1-157857f0195c" name="Default Changelist" comment="feat: exercise">
+      <change afterPath="$PROJECT_DIR$/cookie-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookie-demo/src/main/java/com/zhu/web/aServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookie-demo/src/main/java/com/zhu/web/bServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookie-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookie-demo/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/mapper/BrandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/service/BrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brand-demo/src/main/webapp/brand.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/brand.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,7 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "/Users/yingbingzhu/Documents/GitHub/java_web/brand-demo/src/main/webapp",
-    "project.structure.last.edited": "Facets",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -339,7 +337,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663684189480</updated>
       <workItem from="1664607715481" duration="1395000" />
-      <workItem from="1664609126692" duration="40980000" />
+      <workItem from="1664609126692" duration="42468000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: fix">
       <created>1663853163757</created>
@@ -418,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665157706057</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: exercise">
+      <created>1665242555971</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665242555971</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,6 +453,7 @@
     <MESSAGE value="feat: request &amp; response" />
     <MESSAGE value="feat: login use mybatis and servlet" />
     <MESSAGE value="feat: mvc" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: mvc" />
+    <MESSAGE value="feat: exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise" />
   </component>
 </project>
