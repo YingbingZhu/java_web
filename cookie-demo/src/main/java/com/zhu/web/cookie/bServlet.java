@@ -1,4 +1,4 @@
-package com.zhu.web;
+package com.zhu.web.cookie;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

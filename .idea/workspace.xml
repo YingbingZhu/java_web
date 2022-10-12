@@ -9,15 +9,29 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2c37340-8b41-4d25-bdb1-157857f0195c" name="Default Changelist" comment="feat: exercise">
-      <change afterPath="$PROJECT_DIR$/cookie-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cookie-demo/src/main/java/com/zhu/web/aServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cookie-demo/src/main/java/com/zhu/web/bServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cookie-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cookie-demo/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c2c37340-8b41-4d25-bdb1-157857f0195c" name="Default Changelist" comment="feat: cookie">
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/registerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/resources/com/zhu/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/imgs/Desert1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/imgs/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/imgs/reg_bg_min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookie-demo/src/main/java/com/zhu/web/session/SessionDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookie-demo/src/main/java/com/zhu/web/session/SessionDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-demo/src/main/webapp/brand.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/brand.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookie-demo/src/main/java/com/zhu/web/aServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/cookie-demo/src/main/java/com/zhu/web/cookie/aServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookie-demo/src/main/java/com/zhu/web/bServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/cookie-demo/src/main/java/com/zhu/web/cookie/bServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookie-demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cookie-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +45,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -95,17 +109,17 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/brand-demo/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/util" />
       <recent name="$PROJECT_DIR$/brand-demo/src/main/resources/com/zhu/mapper" />
-      <recent name="$PROJECT_DIR$/brand-demo/src/main/resources" />
       <recent name="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/pojo" />
+      <recent name="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/mapper" />
+      <recent name="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/util" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/brand-demo/src/main/webapp" />
       <recent name="$PROJECT_DIR$/jsp-demo/src/main/java/com/zhu/pojo" />
       <recent name="$PROJECT_DIR$/jsp-demo/src/main/webapp" />
       <recent name="$PROJECT_DIR$/request-demo/src/main/resources/zhu/mapper" />
       <recent name="$PROJECT_DIR$/request-demo/src/main/resources" />
-      <recent name="$PROJECT_DIR$/request-demo/src/main/java/com/zhu/pojo" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zhu" />
@@ -337,7 +351,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663684189480</updated>
       <workItem from="1664607715481" duration="1395000" />
-      <workItem from="1664609126692" duration="42468000" />
+      <workItem from="1664609126692" duration="48215000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: fix">
       <created>1663853163757</created>
@@ -423,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665242555971</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: cookie">
+      <created>1665329933817</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665329933817</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,6 +475,7 @@
     <MESSAGE value="feat: login use mybatis and servlet" />
     <MESSAGE value="feat: mvc" />
     <MESSAGE value="feat: exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise" />
+    <MESSAGE value="feat: cookie" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: cookie" />
   </component>
 </project>

@@ -25,6 +25,9 @@
     <title>Title</title>
 </head>
 <body>
+
+<h1>${user.username},welcome!</h1>
+
 <input type="button" value="add" id="add"><br>
 <hr>
 <table border="1" cellspacing="0" width="800">

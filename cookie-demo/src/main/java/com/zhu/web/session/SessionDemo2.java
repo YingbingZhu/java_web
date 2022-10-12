@@ -1,17 +1,22 @@
-package com.zhu.web;
+package com.zhu.web.session;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
-@WebServlet("/aServlet")
-public class aServlet extends HttpServlet {
+@WebServlet("/demo2")
+public class SessionDemo2 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // send cookie
-        Cookie cookie = new Cookie("username", "zs");
-        response.addCookie(cookie);
+        HttpSession session = request.getSession();
+        System.out.println(session);
+
+//        session.invalidate();
+
+        Object username = session.getAttribute("username");
+        System.out.println(username);
+
     }
 
     @Override
