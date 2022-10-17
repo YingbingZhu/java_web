@@ -47,7 +47,7 @@
         <td>verification code</td>
         <td class="inputs">
           <input name="checkCode" type="text" id="checkCode">
-          <img src="imgs/a.jpg">
+          <img id="checkCodeImage" src="/brand-demo/checkCodeServlet">
           <a href="#" id="changeImg">unclear？</a>
         </td>
       </tr>
@@ -61,5 +61,10 @@
   </form>
 
 </div>
+<script>
+  document.getElementById("changeImg").onclick = function () {
+    document.getElementById("checkCodeImage").src = "/brand-demo/checkCodeServlet?"+new Date().getMilliseconds();
+  }
+</script>
 </body>
 </html>

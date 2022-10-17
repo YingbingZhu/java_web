@@ -9,13 +9,26 @@ import javax.servlet.http.*;
 import java.io.IOException;
 
 @WebServlet("/registerServlet")
-public class registerServlet extends HttpServlet {
+public class RegisterServlet extends HttpServlet {
     private UserService service = new UserService();
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
+
+        // get check code from user
+        String checkCode = request.getParameter("checkCode");
+        // get check code from session
+        HttpSession session = request.getSession();
+        Object checkCodeGen = session.getAttribute("checkCodeGen");
+
+        if (!checkCodeGen.equals(checkCode)) {
+            request.setAttribute("register_msg", "wrong checkcode");
+            request.getRequestDispatcher("/register.jsp").forward(request, response);
+            // prevent from register
+            return;
+        }
 
         User user = new User();
         user.setPassword(password);

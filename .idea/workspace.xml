@@ -9,29 +9,37 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2c37340-8b41-4d25-bdb1-157857f0195c" name="Default Changelist" comment="feat: cookie">
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/registerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/resources/com/zhu/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/imgs/Desert1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/imgs/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/imgs/reg_bg_min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cookie-demo/src/main/java/com/zhu/web/session/SessionDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cookie-demo/src/main/java/com/zhu/web/session/SessionDemo2.java" afterDir="false" />
+    <list default="true" id="c2c37340-8b41-4d25-bdb1-157857f0195c" name="Default Changelist" comment="feat: user login and signup">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ajax_demo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/java/com/zhu/web/servlet/AjaxServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/java/com/zhu/web/servlet/SelectUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/01-ajax-demo1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/imgs/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/imgs/reg_bg_min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/util/CheckCodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/CheckCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/listener/ContextLoaderListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-demo/src/main/java/com/zhu/web/filter/FilterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-demo/src/main/java/com/zhu/web/filter/FilterDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-demo/src/main/webapp/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-demo/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brand-demo/src/main/webapp/brand.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/brand.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie-demo/src/main/java/com/zhu/web/aServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/cookie-demo/src/main/java/com/zhu/web/cookie/aServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie-demo/src/main/java/com/zhu/web/bServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/cookie-demo/src/main/java/com/zhu/web/cookie/bServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookie-demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cookie-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/registerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-demo/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/zhu/web/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/zhu/web/RegisterServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +53,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="HTML File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -99,37 +107,37 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/yingbingzhu/Documents/GitHub/java_web/brand-demo/src/main/webapp",
+    "last_opened_file_path": "/Users/yingbingzhu/Documents/GitHub/java_web/ajax-demo/src/main/webapp",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.testRunning"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ajax-demo/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/util" />
       <recent name="$PROJECT_DIR$/brand-demo/src/main/webapp" />
       <recent name="$PROJECT_DIR$/brand-demo/src/main/resources/com/zhu/mapper" />
       <recent name="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/pojo" />
-      <recent name="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/mapper" />
-      <recent name="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/util" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/brand-demo/src/main/webapp" />
       <recent name="$PROJECT_DIR$/jsp-demo/src/main/java/com/zhu/pojo" />
       <recent name="$PROJECT_DIR$/jsp-demo/src/main/webapp" />
       <recent name="$PROJECT_DIR$/request-demo/src/main/resources/zhu/mapper" />
-      <recent name="$PROJECT_DIR$/request-demo/src/main/resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zhu" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhu.web.filter" />
       <recent name="com.zhu.web" />
       <recent name="com.zhu.web.response" />
       <recent name="com.zhu.test" />
       <recent name="com.zhu.mapper" />
-      <recent name="" />
     </key>
   </component>
   <component name="RunManager">
@@ -321,6 +329,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat: brand-demo" type="com.poratu.idea.plugins.tomcat" temporary="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="contextPath" value="/brand-demo" />
+      <option name="docBase" value="$PROJECT_DIR$/brand-demo/src/main/webapp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Server" />
       <item itemvalue="JUnit.MyBatisTest.testDeleteById" />
@@ -328,10 +348,12 @@
       <item itemvalue="JUnit.UserMapperTest.testSelect" />
       <item itemvalue="Smart Tomcat.Tomcat10" />
       <item itemvalue="Smart Tomcat.Tomcat10 -request-demo" />
+      <item itemvalue="Smart Tomcat.Tomcat: brand-demo" />
       <item itemvalue="Tomcat Server.tomcat10" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Smart Tomcat.Tomcat: brand-demo" />
         <item itemvalue="Application.Server" />
         <item itemvalue="JUnit.UserMapperTest.testSelect" />
         <item itemvalue="JUnit.MyBatisTest.testDeleteByIds" />
@@ -351,7 +373,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663684189480</updated>
       <workItem from="1664607715481" duration="1395000" />
-      <workItem from="1664609126692" duration="48215000" />
+      <workItem from="1664609126692" duration="62467000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: fix">
       <created>1663853163757</created>
@@ -444,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665329933817</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: user login and signup">
+      <created>1665588258509</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665588258509</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,6 +505,11 @@
     <MESSAGE value="feat: mvc" />
     <MESSAGE value="feat: exercise" />
     <MESSAGE value="feat: cookie" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: cookie" />
+    <MESSAGE value="feat: user login and signup" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: user login and signup" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
