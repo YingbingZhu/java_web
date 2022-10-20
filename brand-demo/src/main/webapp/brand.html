@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="addBrand.html"><input type="button" value="add"></a><br>
+<hr>
+<table id="brandTable" border="1" cellspacing="0" width="100%">
+    <tr>
+        <th>id</th>
+        <th>brand_name</th>
+        <th>company</th>
+        <th>ordered</th>
+        <th>desc</th>
+        <th>status</th>
+        <th>action</th>
+    </tr>
+    <tr align="center">
+        <td>1</td>
+        <td>s</td>
+        <td>s</td>
+        <td>100</td>
+        <td>aaa</td>
+        <td>open</td>
+        <td><a href="#">modify</a> <a href="#">delete</a></td>
+    </tr>
+
+    <tr align="center">
+        <td>2</td>
+        <td>u</td>
+        <td>u</td>
+        <td>10</td>
+        <td>bbbb</td>
+        <td>close</td>
+
+        <td><a href="#">modify</a> <a href="#">delete</a></td>
+    </tr>
+
+</table>
+
+<script src="js/axios-0.18.0.js"></script>
+
+<script>
+    //1. send ajax request
+    window.onload = function () {
+        axios({
+            method:"get",
+            url:""
+        }).then(function (resp) {
+
+        })
+    }
+    window.onload = function () {
+        //2. 发送ajax请求
+        axios({
+            method:"get",
+            url:"http://localhost:8080/brand-demo/selectAllServlet"
+        }).then(function (resp) {
+            //获取数据
+            let brands = resp.data;
+            let tableData = " <tr>\n" +
+                "        <th>序号</th>\n" +
+                "        <th>品牌名称</th>\n" +
+                "        <th>企业名称</th>\n" +
+                "        <th>排序</th>\n" +
+                "        <th>品牌介绍</th>\n" +
+                "        <th>状态</th>\n" +
+                "        <th>操作</th>\n" +
+                "    </tr>";
+
+            for (let i = 0; i < brands.length ; i++) {
+                let brand = brands[i];
+
+                tableData += "\n" +
+                    "    <tr align=\"center\">\n" +
+                    "        <td>"+(i+1)+"</td>\n" +
+                    "        <td>"+brand.brandName+"</td>\n" +
+                    "        <td>"+brand.companyName+"</td>\n" +
+                    "        <td>"+brand.ordered+"</td>\n" +
+                    "        <td>"+brand.description+"</td>\n" +
+                    "        <td>"+brand.status+"</td>\n" +
+                    "\n" +
+                    "        <td><a href=\"#\">修改</a> <a href=\"#\">删除</a></td>\n" +
+                    "    </tr>";
+            }
+
+            // 设置表格数据
+            document.getElementById("brandTable").innerHTML = tableData;
+        })
+    }
+
+
+
+</script>
+
+
+</body>
+</html>

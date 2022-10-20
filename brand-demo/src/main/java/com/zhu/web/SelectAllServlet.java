@@ -8,6 +8,7 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 import java.util.List;
+import com.alibaba.fastjson2.*;
 
 @WebServlet("/selectAllServlet")
 public class SelectAllServlet extends HttpServlet {
@@ -17,12 +18,18 @@ public class SelectAllServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        // 1. brandservice
+        // 1. brand service
         List<Brand> brands = brandService.selectAll();
 
-        request.setAttribute("brands", brands);
+//        request.setAttribute("brands", brands);
+//
+//        request.getRequestDispatcher("/brand.jsp").forward(request,response);
 
-        request.getRequestDispatcher("/brand.jsp").forward(request,response);
+        // serialize
+        String s = JSONObject.toJSONString(brands);
+
+        response.setContentType("text/json;charset=utf-8");
+        response.getWriter().write(s);
 
 
     }

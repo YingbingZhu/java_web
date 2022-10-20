@@ -55,11 +55,22 @@
 
 </div>
 
+<script src="js/axios-0.18.0.js"></script>
 <script>
     // 1. bind onblur
     document.getElementById("username").onblur = function() {
         // get username
         var username = this.value;
+
+
+        // axios.get("http://localhost:96/ajax-demo/selectUserServlet?username="+username).then(function (resp) {
+        //     alert(resp.data);
+        //     if (resp.data == true) {
+        //         document.getElementById("username_err").style.display='';
+        //     } else {
+        //         document.getElementById("username_err").style.display='none';
+        //     }
+        // })
 
         // send ajax request
         var xhttp;
@@ -71,7 +82,7 @@
         }
 
         // 2. send request
-        xhttp.open("GET", "http://localhost:96/ajax-demo/selectUserServlet"+username);
+        xhttp.open("GET", "http://localhost:96/ajax-demo/selectUserServlet?username="+username);
         xhttp.send();
 
         // 3. get response

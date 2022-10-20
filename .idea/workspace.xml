@@ -9,37 +9,21 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2c37340-8b41-4d25-bdb1-157857f0195c" name="Default Changelist" comment="feat: user login and signup">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ajax_demo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/java/com/zhu/web/servlet/AjaxServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/java/com/zhu/web/servlet/SelectUserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/01-ajax-demo1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/imgs/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/imgs/reg_bg_min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/util/CheckCodeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/CheckCodeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/filter/LoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/listener/ContextLoaderListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filter-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filter-demo/src/main/java/com/zhu/web/filter/FilterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filter-demo/src/main/java/com/zhu/web/filter/FilterDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filter-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filter-demo/src/main/webapp/hello.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filter-demo/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c2c37340-8b41-4d25-bdb1-157857f0195c" name="Default Changelist" comment="feat: ajax">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/alibaba_fastjson2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/java/com/zhu/json/FastJsonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/java/com/zhu/json/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/java/com/zhu/web/servlet/AxiosServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/02-axios-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/03-axios-demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/04-JSON.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/js/axios-0.18.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/brand.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/registerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brand-demo/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/brand-demo/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request-demo/src/main/java/com/zhu/web/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/request-demo/src/main/java/com/zhu/web/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ajax-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax-demo/src/main/webapp/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax-demo/src/main/webapp/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/brand-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/SelectAllServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/web/SelectAllServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +38,8 @@
       <list>
         <option value="Interface" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -102,15 +86,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "/Users/yingbingzhu/Documents/GitHub/java_web/ajax-demo/src/main/webapp",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.33547696",
     "settings.editor.selected.configurable": "reference.settings.project.maven.testRunning"
   }
 }]]></component>
@@ -123,43 +111,27 @@
       <recent name="$PROJECT_DIR$/brand-demo/src/main/java/com/zhu/pojo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/brand-demo/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/ajax-demo/src/main/java/com/zhu/json" />
+      <recent name="$PROJECT_DIR$/ajax-demo/src/main/webapp/js" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/jsp-demo/src/main/java/com/zhu/pojo" />
-      <recent name="$PROJECT_DIR$/jsp-demo/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/request-demo/src/main/resources/zhu/mapper" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zhu" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhu.web.servlet" />
       <recent name="com.zhu.web.filter" />
       <recent name="com.zhu.web" />
       <recent name="com.zhu.web.response" />
       <recent name="com.zhu.test" />
-      <recent name="com.zhu.mapper" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Server" />
       <module name="http" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBatisTest.testDeleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhu.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zhu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.zhu.test.MyBatisTest" />
-      <option name="METHOD_NAME" value="testDeleteById" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -329,6 +301,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat: ajax-demo" type="com.poratu.idea.plugins.tomcat" temporary="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="contextPath" value="/ajax-demo" />
+      <option name="docBase" value="$PROJECT_DIR$/ajax-demo/src/main/webapp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat: brand-demo" type="com.poratu.idea.plugins.tomcat" temporary="true">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
       <predefined_log_file enabled="true" id="Tomcat Access Log" />
@@ -343,21 +327,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.Server" />
-      <item itemvalue="JUnit.MyBatisTest.testDeleteById" />
       <item itemvalue="JUnit.MyBatisTest.testDeleteByIds" />
       <item itemvalue="JUnit.UserMapperTest.testSelect" />
       <item itemvalue="Smart Tomcat.Tomcat10" />
       <item itemvalue="Smart Tomcat.Tomcat10 -request-demo" />
+      <item itemvalue="Smart Tomcat.Tomcat: ajax-demo" />
       <item itemvalue="Smart Tomcat.Tomcat: brand-demo" />
       <item itemvalue="Tomcat Server.tomcat10" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Smart Tomcat.Tomcat: ajax-demo" />
         <item itemvalue="Smart Tomcat.Tomcat: brand-demo" />
         <item itemvalue="Application.Server" />
         <item itemvalue="JUnit.UserMapperTest.testSelect" />
         <item itemvalue="JUnit.MyBatisTest.testDeleteByIds" />
-        <item itemvalue="JUnit.MyBatisTest.testDeleteById" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +357,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663684189480</updated>
       <workItem from="1664607715481" duration="1395000" />
-      <workItem from="1664609126692" duration="62467000" />
+      <workItem from="1664609126692" duration="71414000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: fix">
       <created>1663853163757</created>
@@ -473,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665588258509</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: ajax">
+      <created>1666024023112</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666024023112</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +497,8 @@
     <MESSAGE value="feat: exercise" />
     <MESSAGE value="feat: cookie" />
     <MESSAGE value="feat: user login and signup" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: user login and signup" />
+    <MESSAGE value="feat: ajax" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: ajax" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
