@@ -43,31 +43,22 @@
 <script src="js/axios-0.18.0.js"></script>
 
 <script>
-    //1. send ajax request
     window.onload = function () {
+        //2. send ajax request
         axios({
             method:"get",
-            url:""
-        }).then(function (resp) {
-
-        })
-    }
-    window.onload = function () {
-        //2. 发送ajax请求
-        axios({
-            method:"get",
-            url:"http://localhost:8080/brand-demo/selectAllServlet"
+            url:"http://localhost:9999/brand-demo/selectAllServlet"
         }).then(function (resp) {
             //获取数据
             let brands = resp.data;
             let tableData = " <tr>\n" +
-                "        <th>序号</th>\n" +
-                "        <th>品牌名称</th>\n" +
-                "        <th>企业名称</th>\n" +
-                "        <th>排序</th>\n" +
-                "        <th>品牌介绍</th>\n" +
-                "        <th>状态</th>\n" +
-                "        <th>操作</th>\n" +
+                "        <th>id</th>\n" +
+                "        <th>brand</th>\n" +
+                "        <th>company name</th>\n" +
+                "        <th>ordered</th>\n" +
+                "        <th>desc</th>\n" +
+                "        <th>status</th>\n" +
+                "        <th>opr</th>\n" +
                 "    </tr>";
 
             for (let i = 0; i < brands.length ; i++) {
@@ -82,7 +73,7 @@
                     "        <td>"+brand.description+"</td>\n" +
                     "        <td>"+brand.status+"</td>\n" +
                     "\n" +
-                    "        <td><a href=\"#\">修改</a> <a href=\"#\">删除</a></td>\n" +
+                    "        <td><a href=\"#\">modify</a> <a href=\"#\">delete</a></td>\n" +
                     "    </tr>";
             }
 

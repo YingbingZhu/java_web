@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>add_brand</title>
+</head>
+<body>
+<div id="app">
+<h3>add_brand</h3>
+<form action="" method="post">
+  brand name：<input id="brandName" v-model="brand.brandName" name="brandName"><br>
+  company name：<input id="companyName" v-model="brand.companyName" name="companyName"><br>
+  order：<input id="ordered" v-model="brand.ordered" name="ordered"><br>
+  description：<textarea rows="5" cols="20" id="description" v-model="brand.description" name="description"></textarea><br>
+  status：
+  <input type="radio" name="status" v-model="brand.status" value="0">close
+  <input type="radio" name="status" v-model="brand.status" value="1">open<br>
+
+  <input type="button" id="btn" @click="submitForm" value="submit">
+</form>
+</div>
+
+<script src="js/axios-0.18.0.js"></script>
+<script src="js/vue.js"></script>
+
+<script>
+  new Vue({
+    el:"#app",
+    data(){
+      return {
+        brand:{}
+      }
+    },
+    methods:{
+      submitForm(){
+        // send ajax request
+        var _this = this;
+        axios({
+          method:"post",
+          url:"http://localhost:8081/brand-demo-10/addServlet",
+          data:_this.brand
+        }).then(function (resp) {
+          if(resp.data == "success"){
+            location.href = "http://localhost:8081/brand-demo-10/brand.html";
+          }
+        })
+      }
+    }
+  })
+
+ /* document.getElementById("btn").onclick = function () {
+    var formData = {
+      brandName:"",
+      companyName:"",
+      ordered:"",
+      description:"",
+      status:"",
+    };
+    let brandName = document.getElementById("brandName").value;
+    formData.brandName = brandName;
+    console.log(brandName);
+    let companyName = document.getElementById("companyName").value;
+    formData.companyName = companyName;
+
+    let ordered = document.getElementById("ordered").value;
+    formData.ordered = ordered;
+
+    let description = document.getElementById("description").value;
+    formData.description = description;
+
+    let status = document.getElementsByName("status");
+    for (let i = 0; i < status.length; i++) {
+      if(status[i].checked){
+        //
+        formData.status = status[i].value ;
+      }
+    }
+
+    console.log(formData);
+    //2. 发送ajax请求
+    axios({
+      method:"post",
+      url:"http://localhost:8081/brand-demo-10/addServlet",
+      data:formData
+    }).then(function (resp) {
+      if(resp.data == "success"){
+        location.href = "http://localhost:8081/brand-demo-10/brand.html";
+      }
+    })
+  }
+*/
+
+</script>
+
+
+</body>
+</html>
+

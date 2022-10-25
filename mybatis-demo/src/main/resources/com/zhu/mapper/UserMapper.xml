@@ -7,7 +7,7 @@
     namespace
 -->
 
-<mapper namespace="com.zhu.mapper.UserMapper">
+<mapper namespace="com.mapper.com.zhu.UserMapper">
     <!--    user is POJO-->
     <select id="selectAll" resultType="User">
         select *

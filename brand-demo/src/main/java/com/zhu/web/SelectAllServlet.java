@@ -26,7 +26,7 @@ public class SelectAllServlet extends HttpServlet {
 //        request.getRequestDispatcher("/brand.jsp").forward(request,response);
 
         // serialize
-        String s = JSONObject.toJSONString(brands);
+        String s = JSON.toJSONString(brands);;
 
         response.setContentType("text/json;charset=utf-8");
         response.getWriter().write(s);

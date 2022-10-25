@@ -10,7 +10,7 @@ import java.io.IOException;
 /**
  * login filter
  */
-@WebFilter("/*")
+// @WebFilter("/*")
 public class LoginFilter implements Filter {
 
 

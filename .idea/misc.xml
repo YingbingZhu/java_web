@@ -4,12 +4,14 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/ajax-demo" />
     <file type="web" url="file://$PROJECT_DIR$/brand-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/brand-demo-10" />
     <file type="web" url="file://$PROJECT_DIR$/cookie-demo" />
     <file type="web" url="file://$PROJECT_DIR$/filter-demo" />
     <file type="web" url="file://$PROJECT_DIR$/jsp-demo" />
     <file type="web" url="file://$PROJECT_DIR$/request-demo" />
     <file type="web" url="file://$PROJECT_DIR$/tomcat-demo1" />
     <file type="web" url="file://$PROJECT_DIR$/tomcat-demo2" />
+    <file type="web" url="file://$PROJECT_DIR$/vue-demo-1" />
     <file type="web" url="file://$PROJECT_DIR$/web-demo" />
   </component>
   <component name="MavenProjectsManager">
@@ -30,6 +32,8 @@
         <option value="$PROJECT_DIR$/cookie-demo/pom.xml" />
         <option value="$PROJECT_DIR$/filter-demo/pom.xml" />
         <option value="$PROJECT_DIR$/ajax-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/brand-demo-10/pom.xml" />
+        <option value="$PROJECT_DIR$/vue-demo-1/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<a href="addBrand.html"><input type="button" value="add"></a><br>
+<hr>
+<table id="brandTable" border="1" cellspacing="0" width="100%">
+    <tr>
+        <th>id</th>
+        <th>brand_name</th>
+        <th>company</th>
+        <th>ordered</th>
+        <th>desc</th>
+        <th>status</th>
+        <th>action</th>
+    </tr>
+
+    <!--
+        use v-for
+    -->
+
+    <tr v-for="(brand,i) in brands" align="center">
+        <td>{{i + 1}}</td>
+        <td>{{brand.brandName}}</td>
+        <td>{{brand.companyName}}</td>
+        <td>{{brand.ordered}}</td>
+        <td>{{brand.description}}</td>
+        <td>{{brand.statusStr}}</td>
+        <td><a href="#">modify</a> <a href="#">delete</a></td>
+    </tr>
+
+<!--    <tr align="center">
+        <td>2</td>
+        <td>u</td>
+        <td>u</td>
+        <td>10</td>
+        <td>bbbb</td>
+        <td>close</td>
+
+        <td><a href="#">modify</a> <a href="#">delete</a></td>
+    </tr>-->
+
+</table>
+</div>
+<script src="js/axios-0.18.0.js"></script>
+<script src="js/vue.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data() {
+            return{
+                brands:[]
+            }
+        },
+        mounted() {
+            var _this = this;
+            //when load finish, request data
+            axios({
+                method:"get",
+                url:"http://localhost:8081/brand-demo-10/selectAllServlet"
+            }).then(function (resp) {
+                _this.brands = resp.data;
+            })
+        }
+    })
+    /*window.onload = function () {
+        //2. send ajax request
+        axios({
+            method:"get",
+            url:"http://localhost:8081/brand-demo-10/selectAllServlet"
+        }).then(function (resp) {
+            //get data
+            let brands = resp.data;
+            let tableData = " <tr>\n" +
+                "        <th>id</th>\n" +
+                "        <th>brand</th>\n" +
+                "        <th>company name</th>\n" +
+                "        <th>ordered</th>\n" +
+                "        <th>desc</th>\n" +
+                "        <th>status</th>\n" +
+                "        <th>opr</th>\n" +
+                "    </tr>";
+
+            for (let i = 0; i < brands.length ; i++) {
+                let brand = brands[i];
+
+                tableData += "\n" +
+                    "    <tr align=\"center\">\n" +
+                    "        <td>"+(i+1)+"</td>\n" +
+                    "        <td>"+brand.brandName+"</td>\n" +
+                    "        <td>"+brand.companyName+"</td>\n" +
+                    "        <td>"+brand.ordered+"</td>\n" +
+                    "        <td>"+brand.description+"</td>\n" +
+                    "        <td>"+brand.status+"</td>\n" +
+                    "\n" +
+                    "        <td><a href=\"#\">modify</a> <a href=\"#\">delete</a></td>\n" +
+                    "    </tr>";
+            }
+
+            // 设置表格数据
+            document.getElementById("brandTable").innerHTML = tableData;
+        })
+    }*/
+
+
+
+</script>
+
+
+</body>
+</html>

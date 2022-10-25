@@ -7,7 +7,7 @@
     namespace
 -->
 
-<mapper namespace="com.zhu.mapper.BrandMapper">
+<mapper namespace="com.mapper.com.zhu.BrandMapper">
 
 
     <!--
