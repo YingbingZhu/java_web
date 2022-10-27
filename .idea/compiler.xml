@@ -15,15 +15,18 @@
         <module name="brand-demo-10" />
         <module name="request-demo" />
         <module name="brand-demo" />
+        <module name="vue-demo" />
         <module name="cookie-demo" />
         <module name="maven-demo" />
         <module name="filter-demo" />
+        <module name="brand-case" />
         <module name="jsp-demo" />
         <module name="mybatis-demo" />
         <module name="web-demo" />
-        <module name="vue-demo-1" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="vue-demo" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

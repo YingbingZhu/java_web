@@ -17,7 +17,7 @@
 <body>
 <div id="app">
 
-    <!--搜索表单-->
+    <!--search-->
     <el-form :inline="true" :model="brand" class="demo-form-inline">
 
         <el-form-item label="status">
@@ -44,35 +44,36 @@
 
     <el-row>
 
-        <el-button type="danger" plain>批量删除</el-button>
-        <el-button type="primary" plain @click="dialogVisible = true">新增</el-button>
+        <el-button type="danger" plain>delete</el-button>
+        <!--dialog click-->
+        <el-button type="primary" plain @click="dialogVisible = true">add</el-button>
 
     </el-row>
-    <!--添加数据对话框表单-->
+    <!-- add brand data -->
     <el-dialog
-            title="编辑品牌"
+            title="edit brand"
             :visible.sync="dialogVisible"
             width="30%"
             >
 
         <el-form ref="form" :model="brand" label-width="80px">
-            <el-form-item label="品牌名称">
+            <el-form-item label="brand name">
                 <el-input v-model="brand.brandName"></el-input>
             </el-form-item>
 
-            <el-form-item label="企业名称">
+            <el-form-item label="company name">
                 <el-input v-model="brand.companyName"></el-input>
             </el-form-item>
 
-            <el-form-item label="排序">
+            <el-form-item label="ordered">
                 <el-input v-model="brand.ordered"></el-input>
             </el-form-item>
 
-            <el-form-item label="备注">
+            <el-form-item label="desc">
                 <el-input type="textarea" v-model="brand.description"></el-input>
             </el-form-item>
 
-            <el-form-item label="状态">
+            <el-form-item label="status">
                 <el-switch v-model="brand.status"
                            active-value="1"
                            inactive-value="0"
@@ -81,8 +82,8 @@
 
 
             <el-form-item>
-                <el-button type="primary" @click="addBrand">提交</el-button>
-                <el-button @click="dialogVisible = false">取消</el-button>
+                <el-button type="primary" @click="addBrand">submit</el-button>
+                <el-button @click="dialogVisible = false">cancel</el-button>
             </el-form-item>
         </el-form>
 
@@ -108,34 +109,34 @@
 
             <el-table-column
                     prop="brandName"
-                    label="品牌名称"
+                    label="brand name"
                     align="center"
             >
             </el-table-column>
             <el-table-column
                     prop="companyName"
-                    label="企业名称"
+                    label="company name"
                     align="center"
             >
             </el-table-column>
             <el-table-column
                     prop="ordered"
                     align="center"
-                    label="排序">
+                    label="ordered">
             </el-table-column>
             <el-table-column
                     prop="status"
                     align="center"
-                    label="当前状态">
+                    label="status">
             </el-table-column>
 
             <el-table-column
                     align="center"
-                    label="操作">
+                    label="action">
 
                 <el-row>
-                    <el-button type="primary">修改</el-button>
-                    <el-button type="danger">删除</el-button>
+                    <el-button type="primary">modify</el-button>
+                    <el-button type="danger">delete</el-button>
                 </el-row>
 
             </el-table-column>
@@ -143,7 +144,7 @@
         </el-table>
     </template>
 
-    <!--分页工具条-->
+    <!--pagination-->
     <el-pagination
             @size-change="handleSizeChange"
             @current-change="handleCurrentChange"
@@ -173,7 +174,7 @@
                 }
                 return '';
             },
-            // 复选框选中后执行的方法
+            // when select multiple
             handleSelectionChange(val) {
                 this.multipleSelection = val;
 
@@ -188,9 +189,9 @@
                 console.log(this.brand);
             },
 
-            //offset
+            //pagination
             handleSizeChange(val) {
-                console.log(`offset ${val} `);
+                console.log(` ${val} items per page `);
             },
             handleCurrentChange(val) {
                 console.log(`current page: ${val}`);
@@ -214,23 +215,23 @@
                 multipleSelection: [],
                 // data
                 tableData: [{
-                    brandName: '华为',
-                    companyName: '华为科技有限公司',
+                    brandName: 'mi',
+                    companyName: 'mi company',
                     ordered: '100',
                     status: "1"
                 }, {
-                    brandName: '华为',
-                    companyName: '华为科技有限公司',
+                    brandName: 'mi',
+                    companyName: 'mi company',
                     ordered: '100',
                     status: "1"
                 }, {
-                    brandName: '华为',
-                    companyName: '华为科技有限公司',
+                    brandName: 'mi',
+                    companyName: 'mi company',
                     ordered: '100',
                     status: "1"
                 }, {
-                    brandName: '华为',
-                    companyName: '华为科技有限公司',
+                    brandName: 'mi',
+                    companyName: 'mi company',
                     ordered: '100',
                     status: "1"
                 }]
