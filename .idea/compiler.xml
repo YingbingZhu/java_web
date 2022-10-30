@@ -14,7 +14,6 @@
         <module name="ajax-demo" />
         <module name="brand-demo-10" />
         <module name="request-demo" />
-        <module name="brand-demo" />
         <module name="vue-demo" />
         <module name="cookie-demo" />
         <module name="maven-demo" />
@@ -26,6 +25,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="brand-demo" target="1.8" />
       <module name="vue-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
